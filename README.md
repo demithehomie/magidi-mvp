@@ -1,73 +1,43 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Software de Cálculo Estrutural com NestJS
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto fornece uma API para cálculos estruturais de pilares e vigas, conforme as especificações da norma NBR 6118:2014. A estrutura do projeto foi construída com base no framework NestJS.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## 📁 Estrutura do Projeto
 
-## Description
+O projeto está organizado em **módulos**, **controllers** e **services**.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Módulos
 
-## Installation
+- 📘 **PilaresModule**: Responsável pela funcionalidade relacionada ao cálculo estrutural de pilares.
 
-```bash
-$ npm install
-```
+### Controllers
 
-## Running the app
+- 🎮 **PilaresController**: Fornece endpoints para interação com as funcionalidades de cálculo de pilares.
 
-```bash
-# development
-$ npm run start
+### Services
 
-# watch mode
-$ npm run start:dev
+- 🛠 **PilaresService**: Contém a lógica de negócios e cálculos para pilares.
 
-# production mode
-$ npm run start:prod
-```
+## 🚀 Funcionalidades
 
-## Test
+### 🏛 Pilares
 
-```bash
-# unit tests
-$ npm run test
+1. **Dimensões Mínimas**: Verifica as dimensões mínimas de um pilar.
+2. **Comprimento Equivalente**: Calcula o comprimento equivalente de um pilar com base em suas características.
+3. **Índice de Esbeltez**: Determina o índice de esbeltez de um pilar.
+4. **Classificação de Esbeltez**: Classifica um pilar com base em seu índice de esbeltez.
+5. **Momento Mínimo**: Calcula o momento mínimo de um pilar.
+6. **Efeitos de 2ª Ordem**: Classifica e determina os efeitos de 2ª ordem em um pilar.
 
-# e2e tests
-$ npm run test:e2e
+### 🌉 Vigas (Em desenvolvimento)
 
-# test coverage
-$ npm run test:cov
-```
+O processo para vigas ainda está em fase preliminar. As funcionalidades e cálculos serão adicionados em breve.
 
-## Support
+💼 Como Usar 
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Instale as dependências do projeto com:  npm install ou yarn install 
 
-## Stay in touch
+## Execute o projeto usando: npm run start ou  yarn start 
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## Acesse os endpoints fornecidos pelo PilaresController para interagir com as funcionalidades de cálculo.
 
-## License
-
-Nest is [MIT licensed](LICENSE).
