@@ -33,11 +33,11 @@ O projeto está organizado em **módulos**, **controllers** e **services**.
 
 O processo para vigas ainda está em fase preliminar. As funcionalidades e cálculos serão adicionados em breve.
 
-💼 Como Usar 
+### 💼 Como Usar 
 
-## Instale as dependências do projeto com:  npm install ou yarn install 
+ Instale as dependências do projeto com:  npm install ou yarn install 
 
-## Execute o projeto usando: npm run start ou  yarn start 
+ Execute o projeto usando: npm run start ou  yarn start 
 
-## Acesse os endpoints fornecidos pelo PilaresController para interagir com as funcionalidades de cálculo.
+ Acesse os endpoints fornecidos pelo PilaresController para interagir com as funcionalidades de cálculo.
 
